@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta Psi Chapter | Alpha Phi Alpha Fraternity Inc.</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #FFD700; /* Old gold */
+        }
+
+        a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background-color: #000;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 3px solid #FFD700;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-style: italic;
+            margin-top: 5px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #111;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .history, .projects, .events, .photos, .memorandums {
+            border: 1px solid #FFD700;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #111;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #111;
+            border-top: 3px solid #FFD700;
+        }
+
+        /* Egyptian Decorative Elements */
+        .egyptian {
+            font-family: 'Papyrus', sans-serif;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Images Section */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            border: 2px solid #FFD700;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Delta Psi Chapter</h1>
+        <p>Alpha Phi Alpha Fraternity Inc.</p>
+        <p>15800 NW 42nd Ave, Miami Gardens, FL 33054</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#history">History</a>
+        <a href="#photos">Photos</a>
+        <a href="#events">Upcoming Events</a>
+        <a href="#projects">Projects</a>
+        <a href="#memorandums">Memorandums</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- History Section -->
+        <section id="history" class="history">
+            <h2>Chapter History</h2>
+            <p>The Delta Psi Chapter of Alpha Phi Alpha Fraternity Inc. was founded with the mission to serve the community and uphold the ideals of scholarship, fellowship, and service. This section will be regularly updated with milestones and achievements of the chapter.</p>
+        </section>
+
+        <!-- Photos Section -->
+        <section id="photos" class="photos">
+            <h2>Photo Gallery</h2>
+            <div class="gallery">
+                <!-- Add your images below -->
+                <img src="placeholder1.jpg" alt="Photo 1">
+                <img src="placeholder2.jpg" alt="Photo 2">
+                <img src="placeholder3.jpg" alt="Photo 3">
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events" class="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Event 1 - Date & Time</li>
+                <li>Event 2 - Date & Time</li>
+                <li>Event 3 - Date & Time</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2>Ongoing and Completed Projects</h2>
+            <p>This section will showcase the projects initiated and completed by the chapter, highlighting their impact and outcomes.</p>
+        </section>
+
+        <!-- Memorandums Section -->
+        <section id="memorandums" class="memorandums">
+            <h2>Memorandums</h2>
+            <p>This section will be used to share official communications, updates, and announcements.</p>
+        </section>
+
+        <!-- Decorative Egyptian Section -->
+        <div class="egyptian">
+            <h3>Inspired by Ancient Traditions</h3>
+            <p>Strength, Wisdom, and Brotherhood</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Delta Psi Chapter, Alpha Phi Alpha Fraternity Inc. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
